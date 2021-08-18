@@ -6,7 +6,7 @@ int main(int argc, char **argv)
 
     ros::init(argc, argv, "control_mission");
     ros::NodeHandle nh;
-    ROS_INFO( "-----Initialize Mission UAV Assign -----" );
+    ROS_INFO( "-----Initialize Mission UAV Assign :)-----" );
     Mission mission;
 
     ros::Rate loop_rate(10);
