@@ -1,0 +1,13 @@
+#General Configs
+rangeToSetNewSetPoint: 0.5 #Value used to accept a new waypoint
+rangeToDefineSetPointReached: 1 #Minimal distance to define that a waypoint was reached
+retainLastSetPoint: true #If this variable is false, the UAV landing after last waypoint
+
+#Velocity Config
+maxUAVVelocityXY: 1 #Velocity m/s XY
+servicePathSetVelocity: "/mavros/param/set"
+
+#Limits Config
+xLimit: 250.0
+yLimit: 250.0
+zLimit: 40.0
